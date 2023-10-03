@@ -14,6 +14,6 @@ const display = document.getElementById('display');
 
         function calculate() {
             let result = eval(display.value);
-            result = Math.round(result * 100) / 100; // Round to 2 decimal places
+            result = Math.round(result * 100) / 100; 
             display.value = result;
         }

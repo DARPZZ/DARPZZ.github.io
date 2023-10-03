@@ -27,9 +27,12 @@
 }
 form .display
 {
+    box-shadow: -8px -8px 15px rgba(230, 1, 138, 0.3), 5px 5px 15px rgba(94, 172, 220, 0.4);
+
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
+    background: rgba(169, 168, 168,0.1);
 }
 form .display input{
     text-align: right;
