@@ -25,3 +25,4 @@ display.addEventListener('keydown', (event) => {
         calculate();
     }
 });
+
