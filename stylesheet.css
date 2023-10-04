@@ -44,30 +44,21 @@ form .display input{
 .calculator form input[value="="] {
     width: 150px;
 }
-@media (max-width: 768px) {
-    .calculator {
-        width: 90%; 
-        max-width: none; 
-    }
 
-    .calculator form {
-        margin: 0; 
-    }
 
+@media (max-width: 767px) {
     .calculator form input {
-        width: 45%; 
-        max-width: none; 
-        margin: 5px; 
-        padding: 10px; 
-    }
-
-    .calculator form input[value="="] {
-        width: 90%; 
-        max-width: none; 
+        width: 40px; /* Adjusted width for mobile */
+        height: 40px; /* Adjusted height for mobile */
+        font-size: 16px; /* Adjusted font size for mobile */
+        margin: 5px; /* Adjusted margin for mobile */
     }
 
     form .display input {
-        font-size: 4vw; 
+        font-size: 30px; /* Adjusted font size for mobile */
+    }
+
+    .calculator form input[value="="] {
+        width: 80px; /* Adjusted width for mobile */
     }
 }
-
