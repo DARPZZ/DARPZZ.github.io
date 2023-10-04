@@ -44,30 +44,4 @@ form .display input{
 .calculator form input[value="="] {
     width: 150px;
 }
-@media (max-width: 768px) {
-    .calculator {
-        width: 90%; 
-        max-width: none; 
-    }
-
-    .calculator form {
-        margin: 0; 
-    }
-
-    .calculator form input {
-        width: 45%; 
-        max-width: none; 
-        margin: 5px; 
-        padding: 10px; 
-    }
-
-    .calculator form input[value="="] {
-        width: 90%; 
-        max-width: none; 
-    }
-
-    form .display input {
-        font-size: 4vw; 
-    }
-}
 
