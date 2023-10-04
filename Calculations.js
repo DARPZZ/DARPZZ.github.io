@@ -9,14 +9,38 @@ function deleteLast() {
 }
 
 function appendChar(char) {
-    display.value += char;
+    var display = document.getElementById('display');
+
+    if (char === '√') {
+        
+        display.value = Math.sqrt(Number(display.value));
+    } else if (char === 'X^2') {
+        
+        display.value = Math.pow(Number(display.value), 2);
+    } else {
+        display.value += char;
+    }
 }
 
-function calculate() {
-    let result = eval(display.value);
-    result = Math.round(result * 100) / 100;
-    display.value = result;
+
+
+function calculate() 
+{
+    let display = document.getElementById('display');
+    let inputValue = display.value;
+
+       let result = eval(inputValue);
+
+        if (!isNaN(result)) {
+            
+            result = Math.round(result * 100) / 100;
+            display.value = result;
+        } else {
+            display.value = 'Ugyldigt udtryk';
+        }
 }
+
+
 
 
 display.addEventListener('keydown', (event) => {

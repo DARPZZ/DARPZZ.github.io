@@ -40,3 +40,6 @@ form .display input{
     font-size: 45px;
     box-shadow: none;
 }
+.calculator form input[value="="] {
+    width: 150px;
+}
