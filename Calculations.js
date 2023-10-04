@@ -22,8 +22,6 @@ function appendChar(char) {
     }
 }
 
-
-
 function calculate() 
 {
     let display = document.getElementById('display');
@@ -39,10 +37,6 @@ function calculate()
             display.value = 'Ugyldigt udtryk';
         }
 }
-
-
-
-
 display.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
         event.preventDefault();  
