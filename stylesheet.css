@@ -48,17 +48,17 @@ form .display input{
 
 @media (max-width: 767px) {
     .calculator form input {
-        width: 40px; /* Adjusted width for mobile */
-        height: 40px; /* Adjusted height for mobile */
-        font-size: 16px; /* Adjusted font size for mobile */
-        margin: 5px; /* Adjusted margin for mobile */
+        width: 40px; 
+        height: 40px; 
+        font-size: 16px; 
+        margin: 5px; 
     }
 
     form .display input {
-        font-size: 30px; /* Adjusted font size for mobile */
+        font-size: 30px; 
     }
 
     .calculator form input[value="="] {
-        width: 80px; /* Adjusted width for mobile */
+        width: 80px; 
     }
 }
