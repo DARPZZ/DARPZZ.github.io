@@ -44,11 +44,3 @@ form .display input{
 .calculator form input[value="="] {
     width: 150px;
 }
-@media (max-width: 768px) {
-    .calculator form input {
-      width: 30%; 
-    }
-    .calculator form input[value="="] {
-      width: 70%;
-  }
-}
