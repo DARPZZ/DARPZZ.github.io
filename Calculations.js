@@ -18,7 +18,7 @@ function calculate() {
     display.value = result;
 }
 
-// Add event listener for Enter key
+
 display.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
         event.preventDefault();  
