@@ -59,6 +59,6 @@ form .display input{
     }
 
     .calculator form input[value="="] {
-        width: 95px; 
+        width: 100px; 
     }
 }
