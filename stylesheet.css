@@ -48,8 +48,8 @@ form .display input{
 
 @media (max-width: 767px) {
     .calculator form input {
-        width: 40px; 
-        height: 40px; 
+        width: 45px; 
+        height: 45px; 
         font-size: 16px; 
         margin: 5px; 
     }
