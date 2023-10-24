@@ -44,5 +44,5 @@ display.addEventListener('keydown', (event) => {
     }
 });
 function goToAnotherPage() {
-    window.location.href = 'newWorld.html';  // Replace with the actual path to the other HTML page
+    window.location.href = 'newWorld.html';
 }

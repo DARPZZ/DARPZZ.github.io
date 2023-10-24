@@ -4,7 +4,7 @@ function calculateProfit() {
   const quantity = parseInt(document.getElementById('quantity').value);
 
   if (isNaN(buyPrice) || isNaN(sellPrice) || isNaN(quantity) || buyPrice <= 0 || sellPrice <= 0 || quantity <= 0) {
-    document.getElementById('profitResult').innerText = 'Please enter valid prices and quantity.';
+    document.getElementById('profitResult').innerText = 'Du mangler at indtaste noget';
     return;
   }
 
