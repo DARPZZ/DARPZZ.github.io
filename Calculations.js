@@ -43,6 +43,4 @@ display.addEventListener('keydown', (event) => {
         calculate();
     }
 });
-function goToAnotherPage() {
-    window.location.href = 'newWorld.html';
-}
+
